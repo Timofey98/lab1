@@ -8,9 +8,9 @@
 
 ## Разработка
 
-### Структура проекта 
+### Задание 1
 
-#### Структура проекта первого задания
+#### Структура проекта
 
 ```
 ├── classes
@@ -21,46 +21,6 @@
        └── HelloWorld.java
 
 ```
-
-#### Структура проекта второго задания
-
-```
-├── classes
-|   ├── mypackage
-|   |  └── HelloWorld.class
-|   └── ru
-|      └── rsatu
-|         └── Class2.class
-└── src
-    ├── mypackage
-    |  └── HelloWorld.java
-    └── ru
-       └── rsatu
-          └── Class2.java
-
-```
-
-#### Структура проекта третьего задания
-
-```
-├── HelloWorld.jar
-├── minifest.mf
-├── classes
-|   ├── mypackage
-|   |  └── HelloWorld.class
-|   └── ru
-|      └── rsatu
-|         └── Class2.class
-└── src
-    ├── mypackage
-    |  └── HelloWorld.java
-    └── ru
-       └── rsatu
-          └── Class2.java
-
-```
-
-### Задание 1
 
 Класса [``HelloWorld``](task1/src/mypackage/HelloWorld.java)
 
@@ -88,6 +48,24 @@ java -classpath ./classes mypackage.HelloWorld
 
 ### Задание 2
 
+#### Структура проекта
+
+```
+├── classes
+|   ├── mypackage
+|   |  └── HelloWorld.class
+|   └── ru
+|      └── rsatu
+|         └── Class2.class
+└── src
+    ├── mypackage
+    |  └── HelloWorld.java
+    └── ru
+       └── rsatu
+          └── Class2.java
+
+```
+
 В директории rsatu создаём класс [``Class2``](task2/src/ru/rsatu/Class2.java)
 ```java
 package ru.rsatu;
@@ -112,6 +90,24 @@ public class HelloWorld{
 
 ### Задание 3
 
+#### Структура проекта
+
+```
+├── HelloWorld.jar
+├── minifest.mf
+├── classes
+|   ├── mypackage
+|   |  └── HelloWorld.class
+|   └── ru
+|      └── rsatu
+|         └── Class2.class
+└── src
+    ├── mypackage
+    |  └── HelloWorld.java
+    └── ru
+       └── rsatu
+          └── Class2.java
+```
 Создаём файл [``manifest.mf``](task3/manifest.mf), в котором указываем глваный исполняемый класс HelloWorld.
 
 ```
